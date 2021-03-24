@@ -1,4 +1,4 @@
-function time_box(){
+function timing(){
     var now =  new Date();
     var seconds = now.getSeconds();
     var minutes = now.getMinutes();
@@ -6,4 +6,4 @@ function time_box(){
 
     document.getElementById("current_time").innerHTML = hour + ":"+minutes+":"+seconds;
 }
-time_box();
+//timing();
